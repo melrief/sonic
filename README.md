@@ -62,7 +62,7 @@ $ sbt example/run
 
 Contributions are welcomed in the form of PRs.
 
-People are expected to follow the [Typelevel Code of Conduct](http://typelevel.org/conduct.html) when discussing Cats
+People are expected to follow the [Typelevel Code of Conduct](http://typelevel.org/conduct.html) when discussing sonic 
 on the Github page, Gitter channel, or other venues.
 
 ## License
