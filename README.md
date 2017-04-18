@@ -1,6 +1,6 @@
 # sonic
 
-Sonic is a Scala implementation of [hedgehog](https://github.com/hedgehogqa) using [Cats](https://github.com/typelevel/cats),
+Sonic is a Scala implementation of [hedgehog](https://github.com/hedgehogqa) using [Cats](https://github.com/typelevel/cats)
 and [Monix](https://github.com/monix/monix). It is a direct translation of the
 [haskell implementation](https://github.com/hedgehogqa/haskell-hedgehog). It's still in early stage and
 lacks many parts of the original library but the core data structures are all implemented and working.
@@ -46,7 +46,7 @@ Finally, run the property group with `Runner.checkGroup`:
 
 ```scala
 def main(args: Array[String]): Unit = {
-checkGroup(listPropertyGroups)
+  checkGroup(listPropertyGroups)
 }
 ```
 
