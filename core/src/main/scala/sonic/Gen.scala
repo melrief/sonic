@@ -105,6 +105,8 @@ final case class Gen[A](run: ZeroOrPositive => Seed => Tree[Option, A]) {
     tryK(0)
   }
 
+  def withFilter(p: A => Boolean): Gen[A] = filter(p)
+
   def collect[B](pf: PartialFunction[A, B]): Gen[B] =
     this >>= (a => if (pf.isDefinedAt(a)) pf(a).pure[Gen] else MonoidK[Gen].empty[B])
 }
