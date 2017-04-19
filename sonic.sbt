@@ -3,6 +3,7 @@ import sbt.Keys.crossScalaVersions
 lazy val sonic =
   (project in file("."))
     .aggregate(core)
+    .settings(commonSettings)
     .settings(publishArtifact := false)
 
 lazy val core =
