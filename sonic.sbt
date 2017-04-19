@@ -17,8 +17,6 @@ lazy val example =
 
 
 lazy val commonSettings = Seq(
-  scalaVersion := "2.12.1",
-  crossScalaVersions := Seq("2.11.8", "2.12.1"),
   scalacOptions ++= Seq(
     "-target:jvm-1.8",
     "-encoding", "UTF-8",
