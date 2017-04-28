@@ -17,7 +17,7 @@ import sonic.numeric.ZeroOrPositive
   * A [[Range]] describes the bounds of a number to generate, which may or may not be dependent on a 'Size'.
   *
   * @param origin the origin of this [[Range]]. It may be the mid-point or the lower bound, depending on what this
-  *               [[Range]] represents. The bounds of this [[Range]] are scaled arount this value when using the 'linear'
+  *               [[Range]] represents. The bounds of this [[Range]] are scaled around this value when using the 'linear'
   *               family of combinators. When using a [[Range]] to generate numbers, the shrinking function will shrink
   *               toward the origin.
   * @param bounds get the extents of this [[Range]], for a given size
