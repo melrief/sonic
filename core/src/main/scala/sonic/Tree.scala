@@ -24,7 +24,7 @@ final case class Tree[M[_], A](runTree: M[Node[M, A]]) {
    *
    * A [[Node]] is expanded by applying `f` to its `value` and then
    * adding the produced children to the result of expanding in
-   * recusively all its `children`
+   * recursively all its `children`
    */
   def expand(f: A => List[A])(implicit M0: Monad[M]): Tree[M, A] = {
     Tree(

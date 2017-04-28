@@ -32,7 +32,7 @@ import sonic.numeric.{GreaterEqualZero, ZeroOrPositive}
 import scala.collection.mutable
 
 /**
- * Generator of random values of tye `A`.
+ * Generator of random values of type `A`.
  *
  * Given a `size` and a `seed`, a generator creates a `Tree` of possible values.
  */
