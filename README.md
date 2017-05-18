@@ -1,6 +1,6 @@
 # sonic
 
-[![Build Status](https://travis-ci.org/melrief/sonic.svg?branch=master)](https://travis-ci.org/melrief/sonic.svg?branch=master)
+[![Build Status](https://travis-ci.org/melrief/sonic.svg?branch=master)](https://travis-ci.org/melrief/sonic)
 
 Sonic is a Scala implementation of [hedgehog](https://github.com/hedgehogqa) using [Cats](https://github.com/typelevel/cats)
 and [Monix](https://github.com/monix/monix). It is a direct translation of the
