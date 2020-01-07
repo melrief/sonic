@@ -4,7 +4,7 @@
 
 Sonic is a Scala implementation of [hedgehog](https://github.com/hedgehogqa) using [Cats](https://github.com/typelevel/cats)
 and [Monix](https://github.com/monix/monix). It is a direct translation of the
-[haskell implementation](https://github.com/hedgehogqa/haskell-hedgehog). It's still in early stage and
+[Haskell implementation](https://github.com/hedgehogqa/haskell-hedgehog). It's still in early stage and
 lacks many parts of the original library but the core data structures are all implemented and working.
 
 ## Features
@@ -65,7 +65,7 @@ $ sbt example/run
 Contributions are welcomed in the form of PRs.
 
 People are expected to follow the [Typelevel Code of Conduct](http://typelevel.org/conduct.html) when discussing sonic 
-on the Github page, Gitter channel, or other venues.
+on the GitHub page, Gitter channel, or other venues.
 
 ## License
 
